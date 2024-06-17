@@ -1,6 +1,7 @@
 package com.example.contentsquare
 
 import android.annotation.SuppressLint
+import android.util.Log
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -234,6 +235,7 @@ fun ServiceSelectionScreen(
     val isLoginAddDetailsAvailable by viewModel.isLoginAddDetailsAvailable.collectAsStateWithLifecycle()
 
     TriggeredOnResume {
+        Log.v("rohit garg", "TriggeredOnResumeTriggeredOnResume")
         viewModel.trackScreen()
     }
 
