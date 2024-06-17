@@ -202,6 +202,6 @@ class HousingPrefStore(private val context: Context, private val gson: Gson) {
     }
 
     companion object {
-        private const val PREFERENCE_STORE_NAME = "location"
+        private const val PREFERENCE_STORE_NAME = "temp"
     }
 }
